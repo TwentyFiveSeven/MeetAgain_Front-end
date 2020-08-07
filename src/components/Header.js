@@ -5,16 +5,16 @@ class Header extends Component {
     return(
         <div class = "head">
             <header>
-                <hgroup>
-                <h1 class = "title"><a href="index.html" >다시모임</a></h1>
-                </hgroup>
-                <ul id = {"left_select"}>
+                <ul id = {"right_select"}>
                 <li id="to_home">
                     <a href="https://tfs247.tistory.com" target="_blank">
-                    <span>로그아웃</span>
+                        <button class="favorite styled" type="button">로그아웃</button>
                     </a>
                 </li>
                 </ul>
+                <hgroup>
+                    <h1 class = "title"><a href="index.html" >다시모임</a></h1>
+                </hgroup>
         </header>
       </div>
     );

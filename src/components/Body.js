@@ -4,7 +4,7 @@ class Body extends Component {
   render(){
     return (
       <div> 
-
+          body
       </div>
     );
   }
