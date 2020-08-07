@@ -17,8 +17,8 @@ function Login() {
                     placeholder="비밀번호"
                     className="login-input"
                 ></input>
-                <button className="login-button">로그인</button>
-                <button className="login-button">회원가입</button>
+                <button className="login-button" value={name} onChange={onChange}>로그인</button>
+                <button className="login-button" value={password} onChange={onChange}>회원가입</button>
             </div>
         </div>
     );

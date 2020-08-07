@@ -4,7 +4,7 @@ import "./pagenation.css";
 function unit(startPosition, endPosition) {
   const arr = [];
   for (let i = startPosition; i <= endPosition; i++) {
-    arr.push(<div className="pagenation-unit">{i}</div>);
+    arr.push(<a className="pagenation-unit" href="#">{i}</a>);
   }
   return arr;
 }
