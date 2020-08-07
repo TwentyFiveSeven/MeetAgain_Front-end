@@ -7,8 +7,9 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
+        <Route exac path="/mainPage" component={Pages.MainPage} />
+        <Route exac path="/viewText" component={Pages.ViewPage} />
         <Route exac path="/signup" component={Pages.SignUpPage} />
-        <Route exac path="/main" component={Pages.LoginPage} />
         <Route exac path="/post" component={Pages.PostListPage} />
         <Route exac path="/write" component={Pages.WritePage} />
         <Route exac path="/" component={Pages.LoginPage} />

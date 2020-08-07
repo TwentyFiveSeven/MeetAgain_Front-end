@@ -1,8 +1,9 @@
 import React from 'react';
 import PostList from '../components/postList'
+import PageTemplete from '../components/pageTemplete';
 
 function PostListPage() {
-    return <><PostList /></>
+    return <PageTemplete><PostList /></PageTemplete>
 }
 
 export default PostListPage
