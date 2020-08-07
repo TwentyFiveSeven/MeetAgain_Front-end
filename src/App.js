@@ -7,27 +7,14 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exac path="/signup" component={Pages.LoginPage} />
+        <Route exac path="/signup" component={Pages.SignUpPage} />
         <Route exac path="/main" component={Pages.LoginPage} />
         <Route exac path="/post" component={Pages.PostListPage} />
+        <Route exac path="/write" component={Pages.WritePage} />
         <Route exac path="/" component={Pages.LoginPage} />
       </Switch>
     </BrowserRouter>
   );
 }
-// class App extends Component {
-//   render(){
-//     return (
-//       <div>
-//         <Header>
-
-//         </Header>
-//         <Body>
-
-//         </Body>
-//       </div>
-//     );
-//   }
-// }
 
 export default App;
